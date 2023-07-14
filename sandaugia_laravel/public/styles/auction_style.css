@@ -1,0 +1,38 @@
+.text-divider {
+    display: flex;
+    align-items: center;
+    --text-divider-gap: 1rem;
+}
+.text-divider::before,
+.text-divider::after {
+    content: "";
+    height: 1px;
+    background-color: #333;
+    flex-grow: 1;
+}
+.text-divider::before {
+    margin-right: var(--text-divider-gap);
+}
+.text-divider::after {
+    margin-left: var(--text-divider-gap);
+}
+
+.act {
+    background-color: #fdf5e6 !important;
+    color: black;
+}
+
+.nav-item {
+    font-size: large;
+    font-weight: 500;
+}
+
+.btn-color {
+    background: #8b4513;
+    border-color: #8b4513;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    height: 50px;
+    width: 20%;
+}

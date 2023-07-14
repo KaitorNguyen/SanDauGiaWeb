@@ -1,0 +1,14 @@
+Các tài khoản đăng nhập vào hệ thống Website
+
+- Vai trò Admin
+Email: admin@gmail.com
+Mật khẩu: 12345678
+
+- Vai trò Customer
++ Tài khoản không bị khóa
+Email: ken@gmail.com
+Mật khẩu: 12345678
+
++ Tài khoản bị khóa (Không thể thực hiện đấu giá)
+Email: tin@gmail.com
+Mật khẩu: 12345678
