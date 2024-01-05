@@ -43,7 +43,7 @@ class BillController extends Controller
         $auction = Auction::where("auction_price",$auction_max)->where("product_id", $id)->first();
 
         $bill = Bill::create([
-            'auction_id' => $auction->user_id,
+            'auction_id' => $auction->auction_id,
             'name' => $request->name,
             'address' => $request->address,
             'phone' => $request->phone,
